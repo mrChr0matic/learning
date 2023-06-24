@@ -63,6 +63,7 @@ p{
     width: 22%;
     right: 25%;
     transform: rotate(25deg);
+    z-index-0;
 }
 
 /*features*/
@@ -122,6 +123,7 @@ p{
 #pricing{
     padding: 100px;
     text-align: center;
+    background-color:#fff;
 }
 .pricing-column {
     padding: 3% 2%;
@@ -145,6 +147,7 @@ p{
 #footer{
     text-align: center;
     padding: 7% 15%;
+    background-color:#fff;
 }
 .social-icon{
     margin:20px 10px;
