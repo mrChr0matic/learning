@@ -26,11 +26,12 @@ p{
     color: #8f8f8f;
 }
 #title{
+    width: 100%;
     background-color: #ff4c68;
     color: #fff;
 }
 .container-fluid{
-    padding: 3% 15% 7%;
+    padding: 3% 15% 10%;
 }
 /*Navigation Bar*/
 
@@ -59,11 +60,11 @@ p{
 /* title image*/
 
 .image{
-    position: absolute;
-    width: 22%;
+    position: fixed;
+    width: 19%;
     right: 25%;
     transform: rotate(25deg);
-    z-index-0;
+    z-index: 0;
 }
 
 /*features*/
@@ -99,6 +100,7 @@ p{
     background-color: #ef8172;
     text-align: center;
     color: #fff;
+    position: relative;
 }
 .testimonial-image{
     width: 10%;
@@ -112,6 +114,7 @@ p{
     background-color: #ef8172;
     text-align: center;
     padding-bottom: 3%;
+    position: relative;
 }
 .press-logo{
     width: 15%;
@@ -121,9 +124,12 @@ p{
 /*pricing section*/
 
 #pricing{
+    position: relative;
     padding: 100px;
     text-align: center;
-    background-color:#fff;
+    z-index: 1;
+    background-color: #fff;
+    
 }
 .pricing-column {
     padding: 3% 2%;
@@ -135,6 +141,7 @@ p{
     background-color: #ff4c68;
     text-align: center;
     padding: 7% 15%;
+    position: relative;
 }
 .end{
     color: #fff;
@@ -146,8 +153,9 @@ p{
 
 #footer{
     text-align: center;
-    padding: 7% 15%;
-    background-color:#fff;
+    padding: 1% 15%;
+    position: relative;
+    background-color: #fff;
 }
 .social-icon{
     margin:20px 10px;
@@ -158,12 +166,15 @@ p{
 }
 
 @media (max-width:1028px){
+    .sizing{
+        font-weight: 00;
+    }
     #title{
+        width: 100%;
         text-align: center;
     }
     .image{
         position: static;
-        width: 70%;
         transform: rotate(0);
     }
 }
